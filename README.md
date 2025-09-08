@@ -34,7 +34,7 @@ To find the optimal policy via RL, the inventory management problem is modelled 
 
 In this coursework, participants will learn how to optimize the inventory control policy using tabular Q-learning.  
 - Instructions can be found in this **Jupyter Notebook**:  
-    📄 [`coursework_Almería.ipynb`](./coursework_Almería.ipynb)  
+    📄 [`inventory_management_RL_GoogleColab.ipynb`](./inventory_management_RL_GoogleColab.ipynb)  
 - Note that only the following Python modules are allowed:
     * numpy
     * time
