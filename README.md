@@ -34,11 +34,19 @@ To find the optimal policy via RL, the inventory management problem is modelled 
 
 In this coursework, participants will learn how to optimize the inventory control policy using tabular Q-learning.  
 - Instructions can be found in this **Jupyter Notebook**:  
-    📄 [`inventory_management_RL_GoogleColab.ipynb`](./inventory_management_RL_GoogleColab.ipynb)  
+    📄 [`coursework_Almería.ipynb`](./coursework_Almería.ipynb)  
 - Note that only the following Python modules are allowed:
     * numpy
     * time
     * tqdm
+
+## Structure of the repo
+- `IMP_CW_env.py` -> file where environment model is implemented
+- `inventory_management_RL_GoogleColab.ipynb` -> notebook to be used during the course
+- `common.py` and `utils.py` -> files with auxiliary functions (plotting, logging...)
+- `ml4ce_rl.yml` -> file to recreate the python environment used in the coursework
+- `algorithms\.` -> folder containing alternative optimization algorithms to the one explained in the notebook
+- `benchmarking\.` -> folder where test datasets and pre-trained policies used for comparison purposes are saved
 
 ## Submissions
 * Participants will have to submit their code through the following Streamlit app:
